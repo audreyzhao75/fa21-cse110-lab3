@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>October Meeting Minutes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images-i-used/az-logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <nav>
+            <button>Back to Home</button>
+            <button>Meeting Notes</button>
+        </nav>
+        <main>
+            <header>
+                <h1>Underwater Basket Weaving Board Meeting Minutes</h1>
+                <p><b>Topic:</b> Planning October Events and Socials</p>
+                <p><b>Date:</b> 8/1/2021</p>
+            </header>
+            <hr>
+            <section>
+                <h2>Attendees</h2>
+                <ul>
+                    <li>Audrey Zhao</li>
+                    <li>Jamie Foo</li>
+                    <li>Rachel Lian</li>
+                    <li>Gwen Stilson</li>
+                </ul>
+
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Introduction</li>
+                    <li>Last Time...</li>
+                    <li>New happenings / updates</li>
+                    <li>GBM preparations</li>
+                    <li>Officer duties</li>
+                    <li>Questions and goodbyes</li>
+                </ol>
+                <hr>
+                <h3>Introduction</h3>
+                <ul>
+                    <li>Week 2 is upon us soon</li>
+                    <li>Lots of events are happening soon, we will need to do a lot of planning</li>
+                    <li>Make sure to read up on our <a href="https://en.wikipedia.org/wiki/Underwater_basket_weaving">club vision</a> if you haven't already</li>
+                </ul>
+
+                <h3>Last Time...</h3>
+                <ul>
+                    <li>First board meeting, introductions</li>
+                    <li>Discussed officially registering with UCSD</li>
+                    <li>Fundraising ideas</li>
+                    <li>Social ideas</li>
+                    <li>Discussion and Questions</li>
+                    <li>Board Social</li>
+                </ul>
+
+                <h3>New happenings / updates</h3>
+                <ul>
+                    <li>Our first GBM will be Wednesday 7pm at Price</li>
+                    <li>We will be launcing our first social!
+                        <ul><li>We need to decide on a day</li></ul>
+                    </li>
+                    <li>Tabling on <strong>Week 2 Monday, 10-3</strong>
+                        <ul><li>Please fill out the form in the group chat</li></ul>
+                    </li>
+                    <li>We will need to reserve spaces for socials and future GBMs
+                        <ul><li>Fill out TAP</li></ul>
+                    </li>
+                </ul>
+
+                <h3>GBM preparations</h3>
+                <ul>
+                    <li>Create slideshow to present
+                        <ul>
+                            <li>Must include this picture:
+                                <ul>
+                                    <li><img width="500px" src="images-i-used/weaving.jpg"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Reserve space</li>
+                    <li>Must create a <em>RSVP form</em> with these details:</li><br>
+                    <form>
+                        <fieldset>
+                            <h3>RSVP Form</h3>
+                            <!-- Details & summary -->
+                            <details>
+                                <summary>Details</summary>
+                                <p>This form is to help us determine how many people will be there so we can plan accordingly!
+                                    Let us know if you have any questions.
+                                </p>
+                            </details><br>
+                            <!-- input text -->
+                            <label id="name-text">What's your name?</label><br>
+                            <input type="text"><br><br>
+
+                            <!-- input radio -->
+                            <label id="year-radio">What year are you?</label><br>
+                            <input type="radio" id="year1" name="what-year">
+                            <label for="year1">1st</label><br>
+                            <input type="radio" id="year2" name="what-year">
+                            <label for="year1">2nd</label><br>
+                            <input type="radio" id="year3" name="what-year">
+                            <label for="year1">3rd</label><br>
+                            <input type="radio" id="year4" name="what-year">
+                            <label for="year1">4th</label><br>
+                            <input type="radio" id="year5" name="what-year">
+                            <label for="year1">5th</label><br>
+                            <input type="radio" id="year-graduate" name="what-year">
+                            <label for="year1">Graduate</label><br>
+                            <input type="radio" id="year-other" name="what-year">
+                            <label for="year1">Other</label><br><br>
+
+                            <!-- input datalist -->
+                            <label for="data-input">What's your major?</label><br>
+                            <input list="datalist" name="data-input" id="data-input">
+                            <datalist id="datalist">
+                                <option value="Cognitive Science">
+                                <option value="Computer Science">
+                                <option value="Biology">
+                                <option value="Data Science">
+                                <option value="Public Health">
+                                <option value="Psychology">
+                                <option value="Computer Engineering">
+                                <option value="Other">
+                            </datalist><br><br>
+
+                            <!-- input select -->
+                            <label for="select">What's your college?</label><br>
+                            <select id="select">
+                                <option value="warren">Warren</option>
+                                <option value="erc">ERC</option>
+                                <option value="muir">Muir</option>
+                                <option value="seventh">Seventh</option>
+                                <option value="sixth">Sixth</option>
+                                <option value="marshall">Marshall</option>
+                                <option value="revelle">Revelle</option>
+                                <option value="other">Other</option>
+                            </select><br><br>
+
+                            <!-- input date -->
+                            <label for="birthdate">What's your birthdate?</label><br>
+                            <input type="date" id="birthdate"><br><br>
+
+                            <!-- input checkbox -->
+                            <label for="news-check">Would you like to join the email newletter?</label><br>
+                            <input type="checkbox" id="news-yes">
+                            <label for="news-yes">Yes</label><br>
+                            <input type="checkbox" id="news-yes">
+                            <label for="news-yes">No</label><br><br>
+    
+                            <!-- input textarea -->
+                            <label for="questions">Any questions or comments?</label><br>
+                            <textarea id="questions" name="" rows="4" cols="50"></textarea><br><br>
+
+                            <input type="button" value="Submit">
+                        </fieldset>
+                    </form>
+                </ul>
+
+                <h3>Officer duties</h3>
+                <ul>
+                    <li><i>Audrey:</i> contact to reserve spaces</li>
+                    <li><i>Jamie:</i> create slideshow</li>
+                    <li><i>Rachel:</i> arrange RSVP form</li>
+                    <li><i>Gwen:</i> continue fundraising ideas and outreach efforts</li>
+                </ul>
+
+                <h3>Questions and goodbyes</h3>
+                <ul>
+                    <li>What needs to be in the slideshow?
+                        <ul>
+                            <li>Our club summary, officer introductions, general information on how to join</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>Meeting video and audio</h3>
+                <p>These will be shown at the GBM as well</p>
+                <video width="320" height="240" controls>
+                    <source src="/images-i-used/weavingVid.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video><br>
+                <audio controls>
+                    <source src="images-i-used/weavingAudio.m4a" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <br><br><br><br><br><br><br><br>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
