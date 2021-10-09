@@ -1,0 +1,146 @@
+/* ========== All ========== */
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+/* ========== Nav ========== */
+
+#top-nav {
+    /* background-color:blue; */
+    background-color: hsl(240, 100%, 94%);
+    padding: 3vh 6vh 3vh 6vh;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#footer {
+    /* background-color:blue; */
+    background-color: hsl(240, 100%, 94%);
+    padding: 6vh 6vh 6vh 6vh;
+    display: flex;
+}
+
+li strong {
+    color: brown;
+}
+
+#footer > div {
+    margin-right: 30px;
+}
+
+label ~ input {
+    color: #aaaaaa;
+}
+
+h1 + div {
+    font-size: medium;
+}
+
+button.nav-button {
+    margin-right: 30px;
+    background-color: #102ba5;
+    border-width: 0px;
+    border-radius:10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a[href="https://en.wikipedia.org/wiki/Underwater_basket_weaving"] {
+    color: blue;
+}
+
+.nav-button:hover {
+    background-color: #395aec;
+    text-decoration: underline;
+}
+
+/* ========== Main ========== */
+
+#header {
+    background-color:rgb(170, 224, 255);
+    padding-top: 20mm;
+    padding-bottom: 20mm;
+    padding-left: 20mm;
+    padding-right: 20mm;
+    margin: 1cm 1cm 1cm 1cm;
+    position: static;
+
+    /* border stuff */
+    border-style: solid;
+    border-width: thick;
+    border-color: #484a50;
+    border-radius: 15px;
+}
+
+#meeting-title {
+    font-family: Oswald;
+    font-size: 3em;
+}
+
+#main-information {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#overview {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+#main-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grid-gbm {
+    display: grid;
+    grid-template: none;
+    gap: 5px 20px;
+    justify-items: start;
+}
+
+#scuba-pic {
+    display: block;
+}
+
+#meeting-form {
+    margin: 5vw;
+    max-width: 500px;
+    min-width: none;
+}
+
+.input-meeting:active, .submit-button:active {
+    border-color: aquamarine;
+    color: red;
+}
+
+#video-audio {
+    margin: auto;
+    text-align: center;
+}
+
+#vid-meeting {
+    width: 420px;
+    height: 320px;
+}
